@@ -1,0 +1,106 @@
+#new{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#new .content{
+    width: 80%;
+}
+#new .title{
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002F7D;
+    padding: 12px 0;
+}
+#new .layout{
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 610px 610px 610px;
+    grid-gap: 28px 26px;
+}
+#new .layout .item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./WN/aguero.jpg);
+    background-size: cover;
+    position: relative;
+}
+#new .layout .item1 .item1-content{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+#new .layout .item2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(./WN/saleoff.jpg);
+    background-size: cover;
+    position: relative;
+}
+#new .layout .item2 .item2-content{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+#new .layout .item3{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-image: url(./WN/shopkits.jpg);
+    background-size: cover;
+    position: relative;
+}
+#new .layout .item3 .item3-content{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+#new .layout .item4{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(./WN/retro.jpg);
+    background-size: cover;
+    position: relative;
+}
+#new .layout .item4 .item4-content{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+#new .layout .item5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(./WN/shopawaykits.jpg);
+    background-size: cover;
+    position: relative;
+}
+#new .layout .item5 .item5-content{
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+#new .layout .item1:hover,
+#new .layout .item2:hover,
+#new .layout .item3:hover,
+#new .layout .item4:hover,
+#new .layout .item5:hover{
+    cursor: pointer;
+}

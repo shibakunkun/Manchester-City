@@ -1,0 +1,33 @@
+#third-kit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#third-kit .content{
+    width: 80%;
+
+}
+#third-kit .content .title{
+    padding: 20px 0 0 0;
+    color: #002F7D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+#third-kit .img{
+    width: 100%;
+    height: 610px;
+    background-image: url(./thirdkit/HOMEPAGE_CONTENT_BLOCK-ChristmasSale_v3.jpg);
+    background-size: cover;
+    position: relative;
+}
+#third-kit .content .img-content{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    bottom: 0;
+    padding: 20px;
+}
+#third-kit .img:hover{
+    cursor: pointer;
+}

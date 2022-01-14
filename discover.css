@@ -1,0 +1,53 @@
+#discover{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#discover .discover-content{
+    width: 80%;
+}
+#discover .discover-content .title{
+    padding: 24px 0 0 0;
+    color: #002F7D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+#discover .discover-content .layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 610px;
+    grid-gap: 12px;
+    margin-bottom: 40px;
+}
+#discover .discover-content .layout .item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./discover/Content_Square_MonoBrandTiles-3.jpg);
+    position: relative;
+    background-size: cover;
+}
+#discover .discover-content .layout .item1-content{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 20px;
+}
+#discover .discover-content .layout .item2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(./discover/HOMEPAGE_Content_Square_Tile-WinterSale_v9.jpg);
+    position: relative;
+    background-size: cover;
+}
+#discover .discover-content .layout .item2-content{
+    position: absolute;
+    padding-left: 20px;
+    bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+}
