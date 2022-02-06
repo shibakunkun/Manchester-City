@@ -5,6 +5,11 @@
     font-size: 100%;
 }
 
+.col2{
+    float: left;
+    width: 48%;
+}
+
 .col3{
     float: left;
     width: 33.3333%;
