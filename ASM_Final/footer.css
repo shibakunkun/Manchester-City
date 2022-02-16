@@ -1,0 +1,98 @@
+#footer{
+    width: 100%;
+    height: 220px;
+}
+#footer .footer-top{
+    width: 100%;
+    height: 110px;
+    background-color: #98C5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .top-content,
+#footer .bot-content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .top-content .link{
+    width: 40%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #002F7D;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .top-content .icon{
+    width: 14%;
+    display: flex;
+    color: #002F7D;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+#footer .footer-bot{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#footer .bot-content .link{
+    width: 45%;
+    display: flex;
+    font-size: 14px;
+    color: #002F7D;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#footer .bot-content .img{
+    width: 40%;
+}
+#footer .bot-content .img .social-link{
+    width: 100%;
+    height: 20%;
+    background-image: url(./footer/269964103_1237459833443784_6302079177287409130_n.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+#footer .bot-content .img .internal{
+    color: #002F7D;
+    float: right;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+#footer .top-content .link div:hover,
+#footer .top-content .icon i:hover,
+#footer .bot-content .link div:hover,
+#footer .bot-content .img .social-link:hover{
+    cursor: pointer;
+}
+#footer .contact{
+    position: absolute;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 40px;
+    background-color: #005290;
+    margin-right: 12px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+#footer .contact .content{
+    text-decoration:underline;
+}

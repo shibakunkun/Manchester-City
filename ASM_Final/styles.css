@@ -1,0 +1,32 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.col2{
+    float: left;
+    width: 48%;
+}
+
+.col3{
+    float: left;
+    width: 33.3333%;
+    /* height: 300px; */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col4{
+    float: left;
+    width: 25%;
+
+}
+a{
+    text-decoration: none;
+    color: #00285E;
+}
